@@ -1,1 +1,1 @@
-# Tyler-Thomas-Jacob-Marina-David
+Created by Tyler, Thomas, Jacob, Marina and David for CSE 478: Data Visualization
