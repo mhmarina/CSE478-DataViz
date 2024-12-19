@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="coolerganttchart.js"></script>
+    <script src="linegraph.js"></script>
+    <script src="mapgraph.js"></script>
+    <script src="book.js" defer></script>
+    <script src="piechart.js" defer></script>
+    <script src="barchart.js" defer></script>
+    <script src="bubbleMap.js" defer></script>
+    <title>Banned Books</title>
+</head>
+<body>
+    <div id="book">
+
+        <section class="page" id="cover" style="align-content: center;">
+            <div class="book-content">
+                <div class="title">Hidden Words: Banned Books Throughout the Years</div>
+                <button class="button next">&rarr;</button>
+            </div>
+        </section>
+
+
+        <section class="page" id="page1">
+            <div class="content">
+                <h2>Bar Chart</h2>
+                <div id="bar-div" class="container">
+                    <h3 style="text-align: left;" class="col"> 
+                        Country Selector: 
+                        <select id="CountrySelect" onchange='updateBarData()' style="text-align: left;">
+                            <option value=''>Select A Year</option>
+                        </select>
+                    </h3>
+                    <h3 style="text-align: left;"> 
+                        Year Selector: 
+                        <select id="barSelector" onchange='renderBarChart()' style="text-align: left;">
+                            <option value=''>Select A Year</option>
+                        </select>
+                    </h3>
+                    <div id="pie-div">
+                        <div class="pieLegend">
+                            <div style="padding-left: 20px; padding-top: 20px">
+                                <div style="width: 20px; height: 20px; background-color: #7EACB5;">
+                                    <div style="padding-left: 25px; width: 100px;">
+                                        Rights Total
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="padding-left: 20px; padding-top: 20px">
+                                <div style="width: 20px; height: 20px; background-color: #C96868;">
+                                    <div style="padding-left: 40px; width: 100px;">
+                                        No Rights Total
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="button prev">&larr;</button>
+                <button class="button next">&rarr;</button>
+            </div>
+        </section>
+
+
+        <section class="page" id="page2">
+            <div class="content">
+                <h2>Map</h2>
+                <div id="map-div">
+                    <svg id="map-svg"></svg>
+                </div>
+
+                <button class="button prev">&larr;</button>
+                <button class="button next">&rarr;</button>
+            </div>
+        </section>
+
+        <section class="page" id="page3">
+            <div class="content">
+                <h2>Book Stack</h2>
+                <p>This chart represents a timeline of some notable books: when they were banned, when the bane was lifted, and where; presented as a stack of books. Looking at when and where a specific book was banned gives us insight into the world. For example, the works of Einstein were banned in Germany by the Nazis in 1925 to promote Anti-Semitism, and branded his work as "Jewish Physics".</p>
+                <div id="gantt-div">
+                    <svg id="gantt-svg"></svg>
+                </div>
+                <button class="button prev">&larr;</button>
+                <button class="button next">&rarr;</button>
+            </div>
+        </section>
+
+        <section class="page" id="page4">
+            <div class="content">
+                <h2>Line Graph</h2>
+                <div id="linegraph-div">
+                    <svg id="linegraph-svg"></svg>
+                </div>
+                <button class="button prev">&larr;</button>
+                <button class="button next">&rarr;</button>
+            </div>
+        </section>
+
+        <section class="page" id="page5">
+            <div class="content">
+                <h2>Top 65 Most Banned Book Titles & Counts </h2>
+                <h3>Bubble Map </h3>
+                <div id="bubble-div"></div>
+                <button class="button prev">&larr;</button>
+                <button class="button next">&rarr;</button>
+            </div>
+        </section>
+
+        <section class="page" id="end" style="align-content: center;">
+            <div class="content">
+                <h1 class="title">The End</h1>
+                <button class="button prev">&larr;</button>
+            </div>
+        </section>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,370 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>All_data_FIW_2013-2024.xlsx
+Query=`FIW13-24$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country/Territory" size="255" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="V_String" />
+            <Field name="Region" size="255" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="V_String" />
+            <Field name="C/T" size="255" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="V_String" />
+            <Field name="Edition" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="Status" size="255" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="V_String" />
+            <Field name="PR rating" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="CL rating" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="A1" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="A2" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="A3" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="A" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="B1" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="B2" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="B3" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="B4" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="B" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="C1" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="C2" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="C3" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="C" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="Add Q" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="Add A" size="255" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="V_String" />
+            <Field name="PR" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="D1" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="D2" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="D3" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="D4" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="D" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="E1" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="E2" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="E3" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="E" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="F1" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="F2" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="F3" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="F4" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="F" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="G1" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="G2" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="G3" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="G4" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="G" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="CL" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+            <Field name="Total" source="File: C:\Users\Tyler\Desktop\All_data_FIW_2013-2024.xlsx|||`FIW13-24$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="342" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Country/Territory" selected="True" rename="Country" />
+            <SelectField field="Region" selected="True" />
+            <SelectField field="Edition" selected="True" />
+            <SelectField field="A" selected="True" rename="Electoral Process" />
+            <SelectField field="B" selected="True" rename="Political Pluralism and Participation" />
+            <SelectField field="C" selected="True" rename="Functioning of Govrnment" />
+            <SelectField field="Add Q" selected="True" />
+            <SelectField field="PR" selected="True" rename="Political Rights Total" />
+            <SelectField field="D" selected="True" rename="Freedom of Expression and Belief" />
+            <SelectField field="E" selected="True" rename="Associaltional and Organizational Rights" />
+            <SelectField field="F" selected="True" rename="Rule of Law" />
+            <SelectField field="G" selected="True" rename="Personal Autonomy and Individual Rights" />
+            <SelectField field="CL" selected="True" rename="Civil Liberties Total" />
+            <SelectField field="Total" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="210" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>C/T</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-11-24 19:37:01</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>c</Operand>
+              <StartDate>2024-11-24 19:37:01</StartDate>
+              <EndDate>2024-11-24 19:37:01</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[C/T] = "c"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Tyler\AppData\Local\Temp\Alteryx\Engine_23032_5f90d50b477f47639ba762b64d516d95_\Engine_23032_4057f485a09b954c8ec7545615f39dbd~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[Political Pluralism and Participation] + [Add Q]" field="Political Pluralism and Participation" size="8" type="Double" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Political Pluralism and Participation = [Political Pluralism and Participation] ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Add Q" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="174" y="54" width="120" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Removed all territories since only looking at banned books in countries.</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="54" width="120" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Removed unneeded data and renamed columns to match their descriptions better</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="474" y="54" width="120" height="72" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Added Q to B since Q is contained in B. Then, removed Q</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="630" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Tyler\Desktop\CSE 478\Tyler-Thomas-Jacob-Marina-David\data\CountriesFreedomDataCleaned.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CountriesFreedomDataCleaned.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Alteryx_Data_Cleaning</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d393d61c-9ae2-473f-b87c-920efc8f6195" />
+      <Telemetry>
+        <PreviousWorkflowId value="787841d9-544a-44ae-8029-2d858f0246dc" />
+        <OriginWorkflowId value="787841d9-544a-44ae-8029-2d858f0246dc" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
